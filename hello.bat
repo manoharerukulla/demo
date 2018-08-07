@@ -1,1 +1,1 @@
-echo Hello
+echo 'Hello from master branch'
