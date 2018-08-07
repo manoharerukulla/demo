@@ -1,0 +1,9 @@
+---
+- hosts: my
+  become: yes
+  tasks:
+  - name: sshdaemon
+    yum: name=ssh state=present
+    
+  - name: service
+    service: name=ssh state=started
